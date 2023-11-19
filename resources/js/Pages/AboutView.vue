@@ -44,13 +44,12 @@ const carouselArray = [
         textColor: 'red-600',
     },
 ]
-
 </script>
 <template>
     <MainLayout>
-        <div class="pb-128 pt-5 font-serif bg-[url('/img/cables.jpg')] bg-cover text-center">
+        <div class="font-serif pt-5 text-center">
             <p class="text-xl font-semibold">О нас</p>
-            <div v-for="item in carouselArray" class="w-1/3" style="scroll-snap-type: x mandatory;">
+            <div v-for="item in carouselArray" class="w-2/5" style="scroll-snap-type: x mandatory;">
                 <div class="">
                     <input class="sr-only peer" type="radio" name="carousel" :id="[`carousel-${item.number}`]" checked/>
                     <!-- content -->

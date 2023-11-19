@@ -3,7 +3,7 @@ import MainLayout from "@/Layouts/MainLayout.vue";
 </script>
 <template>
     <MainLayout>
-    <div class="text-center pt-5 font-serif bg-[url('/img/cables.jpg')] bg-cover  max-h-fit pb-96">
+    <div class="text-center pt-5 font-serif">
         <p class="text-xl font-semibold">Услуги</p>
         <div class="mx-auto pt-3 text-justify w-3/6 text-wrap space-y-5 animate-fade">
             <p class="indent-8">

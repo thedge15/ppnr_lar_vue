@@ -13,7 +13,10 @@
             <h2 class="text-2xl">Разработка программ ПНР, программ и методик приёмочных испытаний слаботочных
                 сетей.</h2>
             </div>
-            <slot class="h-5/6" />
+            <div class="h-screen mb-20 bg-[url('/img/cables.jpg')] bg-cover">
+
+            <slot />
+            </div>
         </div>
     </div>
 </template>
